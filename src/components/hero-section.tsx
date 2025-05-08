@@ -5,6 +5,7 @@ import {
   ArrowRight,
   Github,
   Linkedin,
+  Mail,
   PhoneIcon as Whatsapp,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -92,7 +93,11 @@ export function HeroSection() {
               href: "https://www.linkedin.com/in/doni-c-853901106/",
               label: "LinkedIn",
             },
-
+            {
+              icon: <Mail className="h-5 w-5" />,
+              href: "mailto:chrisdiantodoni@gmail.com",
+              label: "Email",
+            },
             {
               icon: <Whatsapp className="h-6 w-6" />,
               href: "https://wa.me/081362521300",
