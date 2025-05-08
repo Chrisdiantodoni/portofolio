@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  Github,
-  Linkedin,
-  Mail,
-  Twitter,
-  PhoneIcon as Whatsapp,
-} from "lucide-react";
+import { Github, Linkedin, Mail, PhoneIcon as Whatsapp } from "lucide-react";
 import { useLanguage } from "../context/language-context";
 import { motion } from "framer-motion";
 
@@ -17,27 +11,23 @@ export function Footer() {
   const socialLinks = [
     {
       icon: <Github className="h-5 w-5" />,
-      href: "https://github.com",
+      href: "https://github.com/Chrisdiantodoni",
       label: "GitHub",
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: "https://linkedin.com",
+      href: "https://linkedin.com/in/doni-c-853901106",
       label: "LinkedIn",
     },
-    {
-      icon: <Twitter className="h-5 w-5" />,
-      href: "https://twitter.com",
-      label: "Twitter",
-    },
+
     {
       icon: <Mail className="h-5 w-5" />,
-      href: "mailto:hello@example.com",
+      href: "mailto:chrisdiantodoni@gmail.com",
       label: "Email",
     },
     {
       icon: <Whatsapp className="h-5 w-5" />,
-      href: "https://wa.me/1234567890",
+      href: "https://wa.me/081362521300",
       label: "WhatsApp",
     },
   ];
@@ -50,7 +40,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t py-8">
+    <footer className="border-t py-8 flex justify-center">
       <div className="container flex flex-col md:flex-row justify-between items-center gap-4">
         <motion.div
           className="text-center md:text-left"
@@ -60,7 +50,7 @@ export function Footer() {
           viewport={{ once: true }}
         >
           <p className="text-sm text-muted-foreground">
-            © {currentYear} DevPortfolio. {t("footer.rights")}
+            © {currentYear} Portfolio. {t("footer.rights")}
           </p>
         </motion.div>
 

@@ -17,9 +17,9 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="py-24 md:py-32 container flex justify-center "
+      className="py-24 md:py-32 flex justify-center lg:px-0 px-5"
     >
-      <div className="max-w-3xl space-y-6">
+      <div className="lg:max-w-5xl space-y-6 max-w-2xl">
         <motion.h1
           className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl"
           initial={{ opacity: 0, y: 20 }}

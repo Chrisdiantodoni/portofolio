@@ -10,7 +10,6 @@ import { LanguageProvider } from "./context/language-context";
 import { AboutSection } from "./components/about-section";
 import { HeroSection } from "./components/hero-section";
 import { SkillsCarousel } from "./components/skills-section";
-import { ProjectsSection } from "./components/project-section";
 import { ExperienceSection } from "./components/experience-section";
 import { ContactSection } from "./components/contact-section";
 import { Header } from "./components/header";
@@ -51,7 +50,7 @@ function App() {
               <HeroSection />
               <AboutSection />
               <SkillsCarousel />
-              <ProjectsSection />
+              {/* <ProjectsSection /> */}
               <ExperienceSection />
               <ContactSection />
             </main>

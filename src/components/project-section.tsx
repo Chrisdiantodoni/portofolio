@@ -12,10 +12,14 @@ import {
 } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { AnimatedSection } from "./ui/animated-section";
-import { AnimatedList, AnimatedListItem } from "./ui/animated-list";
 import { AnimatedCard } from "./ui/animated-card";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/language-context";
+import { DirectionalReveal } from "./directional-reveal";
+import {
+  DirectionalStagger,
+  DirectionalStaggerItem,
+} from "./directional-stagger";
 
 export function ProjectsSection() {
   const { t } = useLanguage();
@@ -53,15 +57,15 @@ export function ProjectsSection() {
       className="py-16 md:py-24 bg-muted/50  flex justify-center"
     >
       <div className="container">
-        <AnimatedSection>
+        <DirectionalReveal>
           <h2 className="text-3xl font-bold tracking-tight mb-12 text-center">
             {t("projects.title")}
           </h2>
-        </AnimatedSection>
+        </DirectionalReveal>
 
-        <AnimatedList className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <DirectionalStagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <AnimatedListItem key={index}>
+            <DirectionalStaggerItem key={index}>
               <AnimatedCard className="h-full">
                 <Card className="overflow-hidden flex flex-col h-full">
                   <motion.div
@@ -116,9 +120,9 @@ export function ProjectsSection() {
                   </CardFooter>
                 </Card>
               </AnimatedCard>
-            </AnimatedListItem>
+            </DirectionalStaggerItem>
           ))}
-        </AnimatedList>
+        </DirectionalStagger>
 
         <AnimatedSection delay={0.6}>
           <div className="mt-12 text-center">

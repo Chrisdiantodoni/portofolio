@@ -23,7 +23,7 @@ const translations: Translations = {
     "hero.title": "Full Stack Developer",
     "hero.subtitle": "Building Modern Web Applications",
     "hero.description":
-      "I create responsive, user-friendly applications with cutting-edge technologies. Specializing in React, Node.js, and cloud infrastructure.",
+      "I build responsive, user-friendly applications with modern technologies, specializing in React, Laravel, Node.js, and Flutter.",
     "hero.cta.work": "View My Work",
     "hero.cta.contact": "Contact Me",
 
@@ -47,6 +47,9 @@ const translations: Translations = {
     "skills.database.desc": "Designing and optimizing database structures",
     "skills.devops.title": "DevOps & Cloud",
     "skills.devops.desc": "Deploying and managing cloud infrastructure",
+    "skills.mobile.title": "Mobile Development",
+    "skills.mobile.desc":
+      "Building high-performance cross-platform mobile apps using Flutter and React Native",
     "skills.version.title": "Version Control",
     "skills.version.desc": "Managing code and collaborating with teams",
     "skills.testing.title": "Testing & Quality",
@@ -74,15 +77,15 @@ const translations: Translations = {
     "exp.senior.period": "2021 - Present",
     "exp.senior.desc":
       "Lead developer for the company's flagship SaaS product. Architected and implemented new features, improved performance, and mentored junior developers.",
-    "exp.fullstack.title": "Full Stack Developer",
-    "exp.fullstack.company": "Digital Solutions Ltd.",
-    "exp.fullstack.period": "2018 - 2021",
-    "exp.fullstack.desc":
+    "exp.web.title": "Web Programmer",
+    "exp.web.company": "PT. Alfa Scorpii",
+    "exp.web.period": "2023 - Present",
+    "exp.web.desc":
       "Developed and maintained multiple client projects. Collaborated with design and product teams to deliver high-quality web applications on time.",
-    "exp.frontend.title": "Frontend Developer",
-    "exp.frontend.company": "WebCraft Agency",
-    "exp.frontend.period": "2016 - 2018",
-    "exp.frontend.desc":
+    "exp.programmer.title": "Frontend Developer",
+    "exp.programmer.company": "Hokito Group",
+    "exp.programmer.period": "2023",
+    "exp.programmer.desc":
       "Created responsive and interactive user interfaces for various client websites. Implemented design systems and improved site performance.",
 
     // Contact Section
@@ -182,15 +185,15 @@ const translations: Translations = {
     "exp.senior.period": "2021 - Sekarang",
     "exp.senior.desc":
       "Pengembang utama untuk produk SaaS unggulan perusahaan. Merancang dan mengimplementasikan fitur baru, meningkatkan kinerja, dan membimbing pengembang junior.",
-    "exp.fullstack.title": "Full Stack Developer",
-    "exp.fullstack.company": "Digital Solutions Ltd.",
-    "exp.fullstack.period": "2018 - 2021",
-    "exp.fullstack.desc":
+    "exp.web.title": "Web Programmer",
+    "exp.web.company": "PT. Alfa Scorpii",
+    "exp.web.period": "2023 - sekarang",
+    "exp.web.desc":
       "Mengembangkan dan memelihara beberapa proyek klien. Berkolaborasi dengan tim desain dan produk untuk memberikan aplikasi web berkualitas tinggi tepat waktu.",
-    "exp.frontend.title": "Frontend Developer",
-    "exp.frontend.company": "WebCraft Agency",
-    "exp.frontend.period": "2016 - 2018",
-    "exp.frontend.desc":
+    "exp.programmer.title": "Programmer",
+    "exp.programmer.company": "Hokito Group",
+    "exp.programmer.period": "2023",
+    "exp.programmer.desc":
       "Membuat antarmuka pengguna yang responsif dan interaktif untuk berbagai situs web klien. Mengimplementasikan sistem desain dan meningkatkan kinerja situs.",
 
     // Contact Section

@@ -47,9 +47,9 @@ export function Header() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <a href="#home" className="font-bold text-xl">
+          {/* <a href="#home" className="font-bold text-xl">
             DevPortfolio
-          </a>
+          </a> */}
         </motion.div>
 
         {isMobile ? (
@@ -94,7 +94,7 @@ export function Header() {
                       >
                         <a
                           href={item.href}
-                          className="text-lg font-medium transition-colors hover:text-primary"
+                          className="text-lg font-medium transition-colors hover:text-primary ml-5"
                         >
                           {item.name}
                         </a>
@@ -139,7 +139,7 @@ export function Header() {
               <LanguageToggle />
               <ModeToggle />
             </motion.div>
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
@@ -149,7 +149,7 @@ export function Header() {
               <Button size="sm" className="h-8">
                 {t("nav.resume")}
               </Button>
-            </motion.div>
+            </motion.div> */}
           </div>
         )}
       </div>

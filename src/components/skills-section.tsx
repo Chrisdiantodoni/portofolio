@@ -2,14 +2,13 @@
 
 import { useState, useEffect } from "react";
 import {
-  Code,
   Database,
-  Globe,
   Layout,
   Server,
   Terminal,
   ChevronLeft,
   ChevronRight,
+  Smartphone,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./ui/button";
@@ -40,37 +39,45 @@ export function SkillsCarousel() {
       title: t("skills.backend.title"),
       description: t("skills.backend.desc"),
       icon: <Server className="h-24 w-24 md:h-32 md:w-32" />,
-      technologies: ["Node.js", "Express", "NestJS", "Python", "Java"],
+      technologies: ["Node.js", "Express", "Laravel"],
       color: "bg-green-500/10 text-green-500",
     },
     {
       title: t("skills.database.title"),
       description: t("skills.database.desc"),
       icon: <Database className="h-24 w-24 md:h-32 md:w-32" />,
-      technologies: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Prisma"],
+      technologies: ["PostgreSQL", "MySQL"],
       color: "bg-purple-500/10 text-purple-500",
     },
     {
-      title: t("skills.devops.title"),
-      description: t("skills.devops.desc"),
-      icon: <Globe className="h-24 w-24 md:h-32 md:w-32" />,
-      technologies: ["AWS", "Docker", "Kubernetes", "CI/CD", "Vercel"],
-      color: "bg-orange-500/10 text-orange-500",
+      title: t("skills.mobile.title"),
+      description: t("skills.mobile.desc"),
+      icon: <Smartphone className="h-24 w-24 md:h-32 md:w-32" />,
+      technologies: ["Flutter", "Dart", "React Native"],
+      color: "bg-yellow-500/10 text-yellow-500",
     },
+
+    // {
+    //   title: t("skills.devops.title"),
+    //   description: t("skills.devops.desc"),
+    //   icon: <Globe className="h-24 w-24 md:h-32 md:w-32" />,
+    //   technologies: ["AWS", "Docker", "Kubernetes", "CI/CD", "Vercel"],
+    //   color: "bg-orange-500/10 text-orange-500",
+    // },
     {
       title: t("skills.version.title"),
       description: t("skills.version.desc"),
       icon: <Terminal className="h-24 w-24 md:h-32 md:w-32" />,
-      technologies: ["Git", "GitHub", "GitLab", "Bitbucket"],
+      technologies: ["Git", "GitHub", "GitLab"],
       color: "bg-yellow-500/10 text-yellow-500",
     },
-    {
-      title: t("skills.testing.title"),
-      description: t("skills.testing.desc"),
-      icon: <Code className="h-24 w-24 md:h-32 md:w-32" />,
-      technologies: ["Jest", "React Testing Library", "Cypress", "Playwright"],
-      color: "bg-red-500/10 text-red-500",
-    },
+    // {
+    //   title: t("skills.testing.title"),
+    //   description: t("skills.testing.desc"),
+    //   icon: <Code className="h-24 w-24 md:h-32 md:w-32" />,
+    //   technologies: ["Jest", "React Testing Library", "Cypress", "Playwright"],
+    //   color: "bg-red-500/10 text-red-500",
+    // },
   ];
 
   useEffect(() => {

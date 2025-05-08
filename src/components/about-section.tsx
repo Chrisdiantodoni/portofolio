@@ -1,21 +1,25 @@
-import { useLanguage } from "@/context/language-context";
-import { AnimatedSection } from "./ui/animated-section";
-import { motion } from "framer-motion";
+"use client";
+
 import { Card, CardContent } from "./ui/card";
+import { useLanguage } from "../context/language-context";
+import { motion } from "framer-motion";
+import { DirectionalReveal } from "./directional-reveal";
+import Image from "@/assets/image.jpeg";
 
 export function AboutSection() {
   const { t } = useLanguage();
+
   return (
     <section id="about" className="py-16 md:py-24 bg-muted/50">
-      <div className="container">
-        <AnimatedSection>
+      <div className="px-5">
+        <DirectionalReveal>
           <h2 className="text-3xl font-bold tracking-tight mb-12 text-center">
             {t("about.title")}
           </h2>
-        </AnimatedSection>
+        </DirectionalReveal>
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <AnimatedSection delay={0.2}>
+          <DirectionalReveal delay={0.2}>
             <div className="flex justify-center">
               <motion.div
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary"
@@ -23,24 +27,24 @@ export function AboutSection() {
                 transition={{ duration: 0.3 }}
               >
                 <img
-                  src="/placeholder.svg?height=320&width=320"
+                  src={Image}
                   alt="Developer portrait"
                   className="w-full h-full object-cover"
                 />
               </motion.div>
             </div>
-          </AnimatedSection>
+          </DirectionalReveal>
 
           <div className="space-y-4">
-            <AnimatedSection delay={0.3}>
+            <DirectionalReveal delay={0.3}>
               <p className="text-lg">{t("about.p1")}</p>
-            </AnimatedSection>
+            </DirectionalReveal>
 
-            <AnimatedSection delay={0.4}>
+            <DirectionalReveal delay={0.4}>
               <p className="text-lg">{t("about.p2")}</p>
-            </AnimatedSection>
+            </DirectionalReveal>
 
-            <AnimatedSection delay={0.5}>
+            <DirectionalReveal delay={0.5}>
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <motion.div
                   whileHover={{ y: -5 }}
@@ -86,7 +90,7 @@ export function AboutSection() {
                   </Card>
                 </motion.div>
               </div>
-            </AnimatedSection>
+            </DirectionalReveal>
           </div>
         </div>
       </div>

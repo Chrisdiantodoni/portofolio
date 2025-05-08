@@ -11,30 +11,23 @@ export function ExperienceSection() {
 
   const experiences = [
     {
-      title: t("exp.senior.title"),
-      company: t("exp.senior.company"),
-      period: t("exp.senior.period"),
-      description: t("exp.senior.desc"),
-      technologies: ["React", "Node.js", "AWS", "MongoDB"],
+      title: t("exp.web.title"),
+      company: t("exp.web.company"),
+      period: t("exp.web.period"),
+      description: t("exp.web.desc"),
+      technologies: ["React", "Laravel", "Flutter", "Mysql"],
     },
     {
-      title: t("exp.fullstack.title"),
-      company: t("exp.fullstack.company"),
-      period: t("exp.fullstack.period"),
-      description: t("exp.fullstack.desc"),
-      technologies: ["React", "Express", "PostgreSQL", "Docker"],
-    },
-    {
-      title: t("exp.frontend.title"),
-      company: t("exp.frontend.company"),
-      period: t("exp.frontend.period"),
-      description: t("exp.frontend.desc"),
-      technologies: ["JavaScript", "HTML/CSS", "jQuery", "Sass"],
+      title: t("exp.programmer.title"),
+      company: t("exp.programmer.company"),
+      period: t("exp.programmer.period"),
+      description: t("exp.programmer.desc"),
+      technologies: ["React", "NextJS", "Mysql", "Node.js", "Express.js"],
     },
   ];
 
   return (
-    <section id="experience" className="py-12 md:py-16">
+    <section id="experience" className="py-12 md:py-16 px-5 lg:px-0">
       <AnimatedSection>
         <h2 className="text-3xl font-bold tracking-tight mb-8 text-center">
           {t("exp.title")}

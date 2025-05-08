@@ -55,7 +55,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-16 md:py-24 bg-muted/50 flex justify-center"
+      className="py-16 md:py-24 bg-muted/50 flex justify-center px-5"
     >
       <div className="container">
         <AnimatedSection>
@@ -80,7 +80,7 @@ export function ContactSection() {
                       transition={{ duration: 0.2 }}
                     >
                       <Mail className="h-5 w-5 text-primary" />
-                      <span>hello@example.com</span>
+                      <span>Chrisdiantodoni@gmail.com</span>
                     </motion.div>
                     <motion.div
                       className="flex items-center gap-3"
@@ -88,7 +88,7 @@ export function ContactSection() {
                       transition={{ duration: 0.2 }}
                     >
                       <Phone className="h-5 w-5 text-primary" />
-                      <span>+1 (555) 123-4567</span>
+                      <span>+62 813 6252 1300</span>
                     </motion.div>
                     <motion.div
                       className="flex items-center gap-3"
@@ -96,7 +96,7 @@ export function ContactSection() {
                       transition={{ duration: 0.2 }}
                     >
                       <MapPin className="h-5 w-5 text-primary" />
-                      <span>San Francisco, CA</span>
+                      <span>Medan, Sumatera Utara</span>
                     </motion.div>
                     <motion.div
                       className="flex items-center gap-3"
