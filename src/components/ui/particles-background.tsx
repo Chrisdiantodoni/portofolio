@@ -97,20 +97,20 @@ function createNoise() {
   };
 }
 
-const COLOR_SCHEME = {
-  light: {
-    particle: {
-      color: "rgba(0, 0, 0, 0.07)",
-    },
-    background: "rgba(255, 255, 255, 0.12)",
-  },
-  dark: {
-    particle: {
-      color: "rgba(255, 255, 255, 0.07)",
-    },
-    background: "rgba(0, 0, 0, 0.12)",
-  },
-} as const;
+// const COLOR_SCHEME = {
+//   light: {
+//     particle: {
+//       color: "rgba(0, 0, 0, 0.07)",
+//     },
+//     background: "rgba(255, 255, 255, 0.12)",
+//   },
+//   dark: {
+//     particle: {
+//       color: "rgba(255, 255, 255, 0.07)",
+//     },
+//     background: "rgba(0, 0, 0, 0.12)",
+//   },
+// } as const;
 
 interface Particle {
   x: number;
@@ -162,7 +162,7 @@ export default function ParticlesBackground({
 
     const animate = () => {
       const isDark = document.documentElement.classList.contains("dark");
-      const scheme = isDark ? COLOR_SCHEME.dark : COLOR_SCHEME.light;
+      // const scheme = isDark ? COLOR_SCHEME.dark : COLOR_SCHEME.light;
 
       ctx.fillStyle = isDark
         ? "rgba(0, 0, 0, 0.1)"
@@ -234,7 +234,10 @@ export default function ParticlesBackground({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-center space-y-4"
-        ></motion.div>
+        >
+          {title}
+          {subtitle}
+        </motion.div>
       </div>
     </div>
   );
