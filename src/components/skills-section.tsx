@@ -69,7 +69,7 @@ export function SkillsCarousel() {
       description: t("skills.version.desc"),
       icon: <Terminal className="h-24 w-24 md:h-32 md:w-32" />,
       technologies: ["Git", "GitHub", "GitLab"],
-      color: "bg-yellow-500/10 text-yellow-500",
+      color: "bg-red-500/10 text-red-500",
     },
     // {
     //   title: t("skills.testing.title"),
