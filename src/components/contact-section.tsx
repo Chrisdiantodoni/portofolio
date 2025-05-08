@@ -53,10 +53,7 @@ export function ContactSection() {
   };
 
   return (
-    <section
-      id="contact"
-      className="py-16 md:py-24 bg-muted/50 flex justify-center px-5"
-    >
+    <section id="contact" className="py-16 md:py-24 flex justify-center px-5">
       <div className="container">
         <AnimatedSection>
           <h2 className="text-3xl font-bold tracking-tight mb-12 text-center">

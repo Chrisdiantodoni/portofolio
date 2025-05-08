@@ -27,7 +27,10 @@ export function ExperienceSection() {
   ];
 
   return (
-    <section id="experience" className="py-12 md:py-16 px-5 lg:px-0">
+    <section
+      id="experience"
+      className="py-12 md:py-16 px-5 lg:px-0  bg-muted/50"
+    >
       <AnimatedSection>
         <h2 className="text-3xl font-bold tracking-tight mb-8 text-center">
           {t("exp.title")}
