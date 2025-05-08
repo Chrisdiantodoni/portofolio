@@ -102,7 +102,7 @@ export function ContactSection() {
                     >
                       <Whatsapp className="h-5 w-5 text-primary" />
                       <a
-                        href="https://wa.me/1234567890"
+                        href="https://wa.me/081362521300"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline"
