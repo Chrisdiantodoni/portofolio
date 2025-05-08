@@ -30,7 +30,7 @@ const translations: Translations = {
     // About Section
     "about.title": "About Me",
     "about.p1":
-      "I'm a passionate full stack developer with over 5 years of experience building web applications that solve real-world problems. My journey in software development started with a curiosity about how things work on the web, and has evolved into a career creating elegant solutions.",
+      "I'm a passionate full stack developer with over 2 years of experience building web applications that solve real-world problems. My journey in software development started with a curiosity about how things work on the web, and has evolved into a career creating elegant solutions.",
     "about.p2":
       "I specialize in JavaScript/TypeScript ecosystems, with expertise in React, Next.js, Node.js, and various database technologies. I'm committed to writing clean, maintainable code and creating intuitive user experiences.",
     "about.years": "Years Experience",
@@ -141,7 +141,7 @@ const translations: Translations = {
     // About Section
     "about.title": "Tentang Saya",
     "about.p1":
-      "Saya adalah pengembang full stack yang bersemangat dengan pengalaman lebih dari 5 tahun membangun aplikasi web yang menyelesaikan masalah dunia nyata. Perjalanan saya dalam pengembangan perangkat lunak dimulai dengan keingintahuan tentang bagaimana cara kerja web, dan telah berkembang menjadi karir menciptakan solusi yang elegan.",
+      "Saya adalah pengembang full stack yang bersemangat dengan pengalaman lebih dari 2 tahun membangun aplikasi web yang menyelesaikan masalah dunia nyata. Perjalanan saya dalam pengembangan perangkat lunak dimulai dengan keingintahuan tentang bagaimana cara kerja web, dan telah berkembang menjadi karir menciptakan solusi yang elegan.",
     "about.p2":
       "Saya mengkhususkan diri dalam ekosistem JavaScript/TypeScript, dengan keahlian di React, Next.js, Node.js, dan berbagai teknologi database. Saya berkomitmen untuk menulis kode yang bersih, dapat dipelihara dan menciptakan pengalaman pengguna yang intuitif.",
     "about.years": "Tahun Pengalaman",
