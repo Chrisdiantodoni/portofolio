@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { ThemeProvider } from "./components/theme-provider";
-
+import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from "./components/ui/sonner";
 import { AnimatePresence } from "framer-motion";
 import "./index.css";
@@ -59,6 +59,7 @@ function App() {
           </div>
         </AnimatePresence>
       </LanguageProvider>
+      <Analytics />
     </ThemeProvider>
   );
 }
