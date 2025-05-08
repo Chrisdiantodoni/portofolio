@@ -5,7 +5,6 @@ import {
   ArrowRight,
   Github,
   Linkedin,
-  Twitter,
   PhoneIcon as Whatsapp,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -85,22 +84,18 @@ export function HeroSection() {
           {[
             {
               icon: <Github className="h-6 w-6" />,
-              href: "https://github.com",
+              href: "https://github.com/chrisdiantodoni",
               label: "GitHub",
             },
             {
               icon: <Linkedin className="h-6 w-6" />,
-              href: "https://linkedin.com",
+              href: "https://www.linkedin.com/in/doni-c-853901106/",
               label: "LinkedIn",
             },
-            {
-              icon: <Twitter className="h-6 w-6" />,
-              href: "https://twitter.com",
-              label: "Twitter",
-            },
+
             {
               icon: <Whatsapp className="h-6 w-6" />,
-              href: "https://wa.me/1234567890",
+              href: "https://wa.me/081362521300",
               label: "WhatsApp",
             },
           ].map((social, index) => (
