@@ -59,7 +59,7 @@ export function AboutSection() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         viewport={{ once: true }}
                       >
-                        5+
+                        2+
                       </motion.span>
                       <span className="text-sm text-muted-foreground">
                         {t("about.years")}
@@ -81,7 +81,7 @@ export function AboutSection() {
                         transition={{ duration: 0.5, delay: 0.3 }}
                         viewport={{ once: true }}
                       >
-                        50+
+                        10+
                       </motion.span>
                       <span className="text-sm text-muted-foreground">
                         {t("about.projects")}
