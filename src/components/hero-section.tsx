@@ -45,7 +45,17 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <Button size="lg" asChild>
+          <Button
+            size="lg"
+            asChild
+            onClick={() =>
+              window.open(
+                "https://github.com/Chrisdiantodoni",
+                "_blank",
+                "noopener,noreferrer"
+              )
+            }
+          >
             <motion.a
               href="#projects"
               whileHover={{ scale: 1.05 }}
