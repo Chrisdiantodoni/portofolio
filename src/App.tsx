@@ -7,14 +7,14 @@ import { Toaster } from "./components/ui/sonner";
 import { AnimatePresence } from "framer-motion";
 import "./index.css";
 import { LanguageProvider } from "./context/language-context";
-import { Header } from "./components/Header";
 import { AboutSection } from "./components/about-section";
 import { HeroSection } from "./components/hero-section";
 import { SkillsCarousel } from "./components/skills-section";
 import { ProjectsSection } from "./components/project-section";
 import { ExperienceSection } from "./components/experience-section";
 import { ContactSection } from "./components/contact-section";
-import { Footer } from "./components/Footer";
+import { Header } from "./components/header";
+import { Footer } from "./components/footer";
 
 function App() {
   // Add smooth scrolling
